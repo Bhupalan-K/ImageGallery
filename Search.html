@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Search.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Image Gallery</h1>
+        <form action="" id="search-form">
+            <input type="text" placeholder="Search for Images" id="search-input"><br>
+            <button>Search</button>
+            <button id="clear" style="margin: 20px 10px;">Clear search</button>
+        </form>
+        <p style="margin-top: 40px;" id="paragraph"></p>
+        <div class="size">
+            <input type='number' placeholder="Image size & max-size 1000" id="image-size" style="margin-top: 20px;"><br>
+            <button id="change" style="margin: 20px 10px;">Resize</button>
+            <button id="resize" style="margin-top: 20px;">Default Size</button>
+        </div>
+        <div id="result"></div>
+        <button style="margin: 100px 0; padding: 10px;" id="show-more">Show more</button>
+    </div>
+    <script src="Search.js"></script>
+</body>
+
+</html>
+
